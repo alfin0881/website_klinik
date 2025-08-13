@@ -108,27 +108,27 @@
             >
             <a
               href="#about"
-              class="nav-link font-semibold text-gray-600 hover:text-emerald-700 transition"
+              class="nav-link font-semibold text-gray-600 hover:text-teal-600 transition"
               >Tentang Kami</a
             >
             <a
               href="#services"
-              class="nav-link font-semibold text-gray-600 hover:text-emerald-700 transition"
+              class="nav-link font-semibold text-gray-600 hover:text-teal-600 transition"
               >Layanan</a
             >
             <a
               href="#facilities"
-              class="nav-link font-semibold text-gray-600 hover:text-emerald-700 transition"
+              class="nav-link font-semibold text-gray-600 hover:text-teal-600 transition"
               >Fasilitas</a
             >
             <a
               href="#schedule"
-              class="nav-link font-semibold text-gray-600 hover:text-emerald-700 transition"
+              class="nav-link font-semibold text-gray-600 hover:text-teal-600 transition"
               >Jadwal Dokter</a
             >
             <a
               href="#contact"
-              class="nav-link font-semibold text-gray-600 hover:text-emerald-700 transition"
+              class="nav-link font-semibold text-gray-600 hover:text-teal-600 transition"
               >Kontak</a
             >
           </nav>
@@ -266,28 +266,31 @@
               01/03, Desa Kemiri Timur Subah - Batang.
             </p>
 
-            <!-- Motto, Visi dan Misi -->
-            <h4 class="text-xl font-semibold mb-4 text-gray-700">Motto</h4>
+            <!--Visi dan Misi -->
+            <h4 class="text-xl font-semibold mb-3 text-gray-700">Visi</h4>
             <p class="text-gray-700 mb-6 italic">
               “ Mitra Masyarakat, Iktiar Menuju Sehat ”
             </p>
 
-            <h4 class="text-xl font-semibold mb-4 text-gray-700">Visi</h4>
-            <p class="text-gray-700 mb-6">
-              “ Menjadi Klinik Pilihan Masyarakat “
-            </p>
-
-            <h4 class="text-xl font-semibold mb-4 text-gray-700">Misi</h4>
+            <h4 class="text-xl font-semibold mb-3 text-gray-700">Misi</h4>
             <ul class="list-disc list-inside text-gray-700 space-y-3">
-              Memberikan Pelayanan Prima Dengan Pemanfaatan Informasi Dan
-              Teknologi Medis
-              <li>Memberikan pelayanan prima yang berakhlakul karimah.</li>
-              <li>Meningkatkan kualitas SDM meliputi skill dan spiritual.</li>
               <li>
-                Melaksanakan pekerjaan dalam tim yang profesional, dinamis,
-                inovatif, berdedikasi tinggi dan terpercaya.
+                Memberikan pelayanan prima dengan pemanfaatan informasi dan
+                teknologi medis.
               </li>
-              <li>Menyediakan jasa layanan kesehatan yang terjangkau.</li>
+              <li>
+                Mengutamakan kepercayaan dan kepuasan pasien dengan memberikan
+                pelayanan kesehatan yang berkualitas dan profesional.
+              </li>
+              <li>
+                Mengutamakan kepercayaan dan kepuasan pasien dengan memberikan
+                pelayanan kesehatan prima.
+              </li>
+              <li>
+                Melaksanakan pekerjaan tim yang profesional, dinamis, inovatif,
+                berdedikasi tinggi dan terpercaya.
+              </li>
+              <li>Menyediakan jasa layanan kesehatan yang terjangkau</li>
             </ul>
           </div>
         </div>
@@ -309,233 +312,372 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- IGD 24 JAM -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/igd.jpg"
                 alt="IGD 24 Jam"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">IGD 24 JAM</h3>
-            <p class="text-gray-600">
-              <b>IGD (Instalasi Gawat Darurat)</b>. Layanan Instalasi Gawat
-              Darurat memberikan respon cepat, tepat, cermat dan didukung dengan
-              tenaga medis yang professional untuk membantu pasien kami selama
-              keadaan darurat.
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              IGD 24 Jam
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
+              Layanan Instalasi Gawat Darurat memberikan respon cepat, tepat,
+              cermat dan didukung dengan tenaga medis yang professional untuk
+              membantu pasien kami selama keadaan darurat.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
 
           <!-- RAWAT JALAN -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/rawatjalan.jpg"
                 alt="Rawat Jalan"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Rawat Jalan</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Rawat Jalan
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Pelayanan rawat jalan adalah pelayanan konsultatif dan pemeriksaan
               kesehatan klinik yang diberikan kepada pasien tanpa harus
               menjalani perawatan inap. Pelayanan rawat jalan meliputi poli Umum
               dan Medical Check Up.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
 
           <!-- RAWAT INAP -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
-                src="assets/rawat inap.jpg"
+                src="assets/rawat_inap.jpg"
                 alt="Rawat Inap"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Rawat Inap</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Rawat Inap
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Pelayanan dan pemeriksaan kesehatan klinik yang diberikan kepada
               pasien yang menjalani perawatan inap untuk keperluan observasi,
               diagnosis, terapi, rehabilitasi medik dan penunjang medik lainnya.
               Di Layanan kami menyediakan 20 Bed pasien.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
 
-          <!-- POLI GIGI -->
+          <!-- poli gigi -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/gigi.jpg"
                 alt="Poli Gigi"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Poli Gigi</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Poli Gigi
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Pelayanan Poli Gigi adalah pelayanan kesehatan gigi dan mulut
               berupa pemeriksaan kesehatan gigi dan mulut, pengobatan dan
               pemberian tindakan medis dasar kesehatan gigi dan mulut.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
 
-          <!-- KHITAN -->
+          <!-- khitan -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/khitan.jpg"
                 alt="Khitan"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Khitan</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Khitan
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Khitan/Sunat atau sirkumsisi merupakan suatu tindakan bedah untuk
               membuang kulup/prepusium/kulit kepala penis. Klinik BTN
               menyediakan beberapa metode khitan yaitu : • Khitan Gunting •
               Khitan Laser • Khitan Super Ring • Bedah Minor • Bedah Benjolan •
               Angkat Tahi Lalat
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
 
-          <!-- FARMASI 24 JAM -->
+          <!-- farmasi -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/apotek.jpg"
                 alt="Farmasi"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Farmasi</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Farmasi
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Sarana pelayanan kefarmasian oleh Apoteker untuk kebutuhan obat
               yang dibutuhkan pasien, tempat untuk melakukan peracikan obat,
               pengubahan bentuk, pencampuran obat dan penyerahan obat.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
-          <!-- LABORATORIUM -->
+          <!-- Laboratorium -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/lab.jpg"
-                alt="Laboratorium"
-                class="w-full h-full object-cover"
+                alt="Rawat Inap"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Laboratorium</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Laboratorium
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Laboratorium kesehatan yang melaksanakan pelayanan pemeriksaan
               spesimen klinik untuk mendapatkan informasi tentang kesehatan
               perorangan terutama untuk menunjang upaya diagnosis penyakit, dan
               memulihkan kesehatan.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
-          <!-- KEBIDANAN -->
+          <!-- kebidanan  -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/kebidanan.png"
                 alt="Kebidanan"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Kebidanan</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Kebidanan
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Kebidanan di Klinik BTN meliputi pemeriksaan pada ibu hamil, USG,
               KB dan Persalinan.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
-          <!-- FISIOTERAPI -->
+          <!-- fisioterapi -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/fisioterapi.jpg"
                 alt="Fisioterapi"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Fisioterapi</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Fisioterapi
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Fisioterapi atau terapi fisik merupakan layanan kesehatan yang
               diberikan pada pasien untuk mengembangkan, memelihara dan
               memulihkan gerak dan fungsi tubuh.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
-          <!-- BPJS KESEHATAN -->
+          <!-- layanan BPJS -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/bpjs.jpg"
                 alt="BPJS"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">BPJS Kesehatan</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              BPJS Kesehatan
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Kami menyediakan layanan untuk peserta BPJS Kesehatan : • Layanan
               Rawat Jalan • Layanan Rawat Inap • Layanan Prolanis • Layanan ANC
               Terpadu
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
+          <!-- BPJS ketenagakerjaan-->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/bpjs_ketenagakerjaan.jpg"
-                alt="BPJS"
-                class="w-full h-full object-cover"
+                alt="BPJS Ketenagakerjaan"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">BPJS Ketenagakerjaan</h3>
-            <p class="text-gray-600">
-              BPJS Ketenagakerjaan adalah program jaminan sosial yang memberikan
-              perlindungan bagi pekerja terhadap risiko kecelakaan kerja,
-              kematian, hari tua dan pensiun.
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              BPJS Ketenagakerjaan
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
+              BPJS Ketenagakerjaan adalah badan hukum publik yang
+              menyelenggarakan program jaminan sosial bagi pekerja untuk
+              melindungi mereka dari risiko ekonomi akibat kecelakaan kerja,
+              kematian, hari tua, dan kehilangan pekerjaan.
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
-
           <!-- AMBULANCE 24 JAM -->
           <div
-            class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
+            class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 group"
           >
-            <div class="mb-4 h-40 overflow-hidden rounded-lg">
+            <div class="mb-4 h-40 overflow-hidden rounded-lg relative">
               <img
                 src="assets/ambulance.jpg"
                 alt="Ambulance"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div
+                class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+              ></div>
             </div>
-            <h3 class="text-xl font-semibold mb-2">Ambulance 24 Jam</h3>
-            <p class="text-gray-600">
+            <h3
+              class="text-xl font-semibold mb-2 text-gray-800 group-hover:text-black transition-colors duration-300"
+            >
+              Ambulance 24 Jam
+            </h3>
+            <p
+              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+            >
               Sarana untuk memfasilitasi kegiatan rujukan atau evakuasi medis
-              dengan menggunakan ambulance.
+              dengan menggunakan ambulance
             </p>
+            <div
+              class="mt-4 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+            ></div>
           </div>
         </div>
       </div>
@@ -1212,14 +1354,20 @@
             <button
               class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
             >
-              <h3 class="text-left font-medium">Pertanyaan</h3>
+              <h3 class="text-left font-medium">
+                Apakah IGD di Klinik BTN buka 24 jam?
+              </h3>
               <i
                 class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
               ></i>
             </button>
             <div class="faq-content bg-gray-50 border-t border-gray-200">
               <div class="p-4">
-                <p class="text-gray-600">Jawaban</p>
+                <p class="text-gray-600">
+                  Ya, Instalasi Gawat Darurat (IGD) kami beroperasi 24 jam
+                  setiap hari. Tenaga medis profesional siap memberikan respon
+                  cepat, tepat, dan cermat untuk menangani keadaan darurat.
+                </p>
               </div>
             </div>
           </div>
@@ -1231,14 +1379,20 @@
             <button
               class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
             >
-              <h3 class="text-left font-medium">Pertanyaan</h3>
+              <h3 class="text-left font-medium">
+                Apa saja layanan yang tersedia di rawat jalan?
+              </h3>
               <i
                 class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
               ></i>
             </button>
             <div class="faq-content bg-gray-50 border-t border-gray-200">
               <div class="p-4">
-                <p class="text-gray-600">Jawaban</p>
+                <p class="text-gray-600">
+                  Rawat jalan mencakup layanan konsultasi dan pemeriksaan
+                  kesehatan tanpa perlu menginap, termasuk Poli Umum dan Medical
+                  Check Up.
+                </p>
               </div>
             </div>
           </div>
@@ -1250,14 +1404,20 @@
             <button
               class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
             >
-              <h3 class="text-left font-medium">Pertanyaan</h3>
+              <h3 class="text-left font-medium">
+                Apakah tersedia layanan khitan?
+              </h3>
               <i
                 class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
               ></i>
             </button>
             <div class="faq-content bg-gray-50 border-t border-gray-200">
               <div class="p-4">
-                <p class="text-gray-600">Jawaban</p>
+                <p class="text-gray-600">
+                  Tersedia. Kami menyediakan metode Khitan Gunting, Khitan
+                  Laser, Khitan Super Ring, serta tindakan bedah minor seperti
+                  bedah benjolan dan pengangkatan tahi lalat.
+                </p>
               </div>
             </div>
           </div>
@@ -1269,14 +1429,19 @@
             <button
               class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
             >
-              <h3 class="text-left font-medium">Pertanyaan</h3>
+              <h3 class="text-left font-medium">
+                Apakah farmasi di klinik buka 24 jam?
+              </h3>
               <i
                 class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
               ></i>
             </button>
             <div class="faq-content bg-gray-50 border-t border-gray-200">
               <div class="p-4">
-                <p class="text-gray-600">Jawaban</p>
+                <p class="text-gray-600">
+                  Benar. Farmasi kami beroperasi 24 jam untuk memenuhi kebutuhan
+                  obat pasien, termasuk racikan dan obat siap pakai.
+                </p>
               </div>
             </div>
           </div>
@@ -1288,14 +1453,43 @@
             <button
               class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
             >
-              <h3 class="text-left font-medium">Pertanyaan</h3>
+              <h3 class="text-left font-medium">
+                Apakah Klinik BTN menerima peserta BPJS Kesehatan?
+              </h3>
               <i
                 class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
               ></i>
             </button>
             <div class="faq-content bg-gray-50 border-t border-gray-200">
               <div class="p-4">
-                <p class="text-gray-600">Jawaban</p>
+                <p class="text-gray-600">
+                  Ya. Kami melayani peserta BPJS Kesehatan untuk rawat jalan,
+                  rawat inap, layanan prolanis, ANC, dan lainnya sesuai prosedur
+                  yang berlaku.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- FAQ 6 -->
+          <div
+            class="faq-item border border-gray-200 rounded-lg overflow-hidden"
+          >
+            <button
+              class="faq-button w-full flex justify-between items-center p-4 bg-white hover:bg-gray-50 transition"
+            >
+              <h3 class="text-left font-medium">
+                Apakah klinik juga melayani BPJS Ketenagakerjaan?
+              </h3>
+              <i
+                class="fas fa-chevron-down faq-arrow text-teal-700 transition-transform duration-300"
+              ></i>
+            </button>
+            <div class="faq-content bg-gray-50 border-t border-gray-200">
+              <div class="p-4">
+                <p class="text-gray-600">
+                  Tersedia. Kami bekerja sama dengan BPJS Ketenagakerjaan untuk
+                  memberikan perlindungan dan layanan kesehatan bagi pekerja.
+                </p>
               </div>
             </div>
           </div>
@@ -1448,7 +1642,7 @@
               </li>
               <li class="flex items-center">
                 <i class="fas fa-envelope mr-3 text-gray-300"></i>
-                <span class="text-gray-200">email</span>
+                <span class="text-gray-200">btnmc99@gmail.com</span>
               </li>
               <li class="flex items-center">
                 <i class="fas fa-clock mr-3 text-gray-300"></i>
